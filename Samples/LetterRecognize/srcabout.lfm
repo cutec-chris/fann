@@ -1,0 +1,35 @@
+object frmAbout: TfrmAbout
+  Left = 456
+  Height = 240
+  Top = 214
+  Width = 320
+  Caption = 'About...'
+  ClientHeight = 240
+  ClientWidth = 320
+  Position = poDesktopCenter
+  LCLVersion = '0.9.30.4'
+  object btnClose: TButton
+    Left = 128
+    Height = 25
+    Top = 201
+    Width = 75
+    Caption = 'Close'
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 56
+    Height = 113
+    Top = 24
+    Width = 225
+    Caption = 'FANN network recognize letters demo. '#13#10#13#10'Author: Dariusz Rorat'#13#10'www: http://www.dariuszrorat.dbv.pl'#13#10'e-mail: dariusz.rorat@gmail.com'#13#10#13#10'License: GNU GPL v2'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
